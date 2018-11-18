@@ -129,7 +129,7 @@ class EchoDownloader(object):
                 self._username = input('Unikey: ')
             if self._password is None:
                 import getpass
-                self._password = getpass.getpass('Passowrd for {0}: '.format(
+                self._password = getpass.getpass('Password for {0}: '.format(
                     self._username))
         # Input username and password:
         # user_name = self._driver.find_element_by_id('j_username')
